@@ -1,0 +1,224 @@
+@CHARSET "ISO-8859-1";
+
+/*========================================== LAYOUT =======================================*/
+
+body {
+	background-color: #fff;
+	margin: 0px;
+	font-family: "Century Gothic", "Gill Sans";
+	font-size: 16px;
+}
+
+#header {
+	background-color: #000;
+	margin: 10px;
+	height: 90px;
+	border-radius: 5px;
+}
+
+#images {
+	background-color: #C0C0C0;
+	width: 230px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 110%;
+	float: left;
+}
+
+#files {
+	text-align: center;
+	background-color: #C0C0C0;
+	width: 230px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 110%;
+	float: right;
+}
+
+#chat {
+	background-color: #C0C0C0;
+	margin-left: 260px;
+	margin-right: 260px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 20px;
+	font-size: 110%;
+}
+
+.logout {
+	float: right;
+	margin-right: 5px;
+}
+
+.loggedin {
+	color: white;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#chatbox {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#rightchat {
+	float: right;
+	padding: 5px;
+}
+
+#messagesDisplay {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: white;
+	width: 80%;
+	height: 340px;
+	padding: 10px;
+	overflow: scroll;
+	text-align: left;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: normal;
+	float: left;
+}
+
+#messagetextField{
+	padding: 2px;
+	width: 80%;
+	margin-right:5px; margin-left: 5px;
+}
+
+#sendButton{
+	padding: 2px;
+	width: 10%;
+	float: right;
+}
+
+#usersTextArea {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: white;
+	width: 12%;
+	height: 340px;
+	padding: 10px;
+	text-align: left;
+	word-break: break-all;
+	word-wrap: break-word;
+	white-space: normal;
+	float: right;
+}
+
+.messageBubble {
+	background-color: #f5f5f5;
+	/*width: 500px;*/
+	text-align: left;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 14px;
+	float: left;
+	clear: both;
+	white-space: normal;
+	word-wrap: break-word;
+	word-break: normal;
+	max-width: 75%;
+}
+
+.selfmessageBubble {
+	background-color: #C5FDFB;
+	/*width: 500px;*/
+	text-align: left;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 14px;
+	float: right;
+	clear: both;
+	white-space: normal;
+	word-wrap: break-word;
+	word-break: normal;
+	max-width: 75%;
+}
+
+/*============================================= TEXT ==================================================*/
+
+h1 {
+	margin: 0px;
+	font-size: 250%;
+	text-align: center;
+	color: #c000ff;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.imagesHead {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 200%;
+	text-align: center;
+	color: #c000ff;
+}
+
+
+.username {
+	font-weight: bold;
+	color: red;
+	font-size: 16px;
+}
+
+.date {
+	font-size: 70%;
+	float: right;
+}
+
+/*==========================================IMAGES & FILES======================================*/
+
+.image {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	margin: 5px;
+}
+
+.file {
+	font-size: 75%;
+	display: block;
+	padding-bottom: 10px;
+}
+
+#loader {
+	visibility: hidden;
+	width: 30px;
+	height: 30px;
+}
+
+/*==========================================OTHER ELEMENTS======================================*/
+
+select {
+	font-family: "Century Gothic", "Gill Sans";
+}
+
+input {
+	font-family: "Century Gothic", "Gill Sans";
+	font-size: 16px;
+}
+
+button {
+	font-family: "Century Gothic", "Gill Sans";
+	font-size: 16px;
+}
